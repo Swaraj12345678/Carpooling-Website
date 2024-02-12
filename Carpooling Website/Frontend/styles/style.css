@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#nav_bar {
+    height: 40px;
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1 {
+    width: 40px; /* Adjust the size as needed */
+    border-radius: 25%;
+}
+
+#nav_list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #ffcc00; /* Change to your desired hover color */
+}
+
+.card {
+    /* Your existing styles for the cards */
+}
